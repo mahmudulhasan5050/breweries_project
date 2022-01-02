@@ -20,7 +20,7 @@ const Search = ({ allBreweries, setBreweriesSearchChecked, searchLetters, setSea
 
     return (
         <div>
-            <InputBase color='secondary' value={searchLetters} onChange={(e) => filterBreweriesData(e.target.value)}></InputBase>
+            <InputBase sx={{width:'100%'}} value={searchLetters} onChange={(e) => filterBreweriesData(e.target.value)}></InputBase>
         </div>
 
     );

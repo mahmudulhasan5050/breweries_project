@@ -13,6 +13,8 @@ import Search from './Search';
 const useStyles = makeStyles(theme => ({
     mainContainer: {
         backgroundColor: theme.palette.primary.dark,
+        minHeight: '100vh',
+        backgroundSize: 'cover',
     },
     itemGrid: {
         width: '80%',
